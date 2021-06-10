@@ -46,6 +46,6 @@ ideasRouter.delete('/:ideaId', (req, res, next) => {
         res.status(500);
     }
     res.send();
-})
+});
 
 module.exports = ideasRouter;
