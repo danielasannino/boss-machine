@@ -13,8 +13,7 @@ const cors = require('cors');
 app.use(cors());
 
 // Add middware for parsing request bodies here:
-const bodyParser = require('body-parser');
-app.use(bodyParser.json());
+app.use(express.json());
 
 //Add middleware for logging
 const morgan = require('morgan');
